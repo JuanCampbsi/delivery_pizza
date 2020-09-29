@@ -2,7 +2,7 @@
   Delivery_Pizza
 </h1>
 
-<p align="center">A simple, clean and beautiful mobile app to create your own pizza.</p>
+<p align="center">Pizza ordering and assembly application.</p>
 
 <p align="center">
   <img src="https://i.ibb.co/QDL02Kv/pizza-removebg-preview.png" alt="Animavita" height="300" width="500">
@@ -11,7 +11,7 @@
 </p>
 
 
-# :rocket: Demo
+# :rocket: Demo 🚀💻🏋️‍♂️💪
 
 <p align="center">
   <kbd>
@@ -20,41 +20,35 @@
 
 </p>
 
-# :wrench: Install instructions
 
-### Getting Started
 
-#### 1) Clone & Install Dependencies
+### Descrição 
 
-- 1.1) `git clone https://github.com/guistrutzki/pizza-app-challenge.git`
-- 1.2) `cd pizza-app-challenge` - cd into your newly created project directory.
-- 1.3) Install NPM packages with `yarn install`
-        
-- 1.4) **[iOS]** `cd ios` and run `pod install` - if you don't have CocoaPods you can follow [these instructions](https://guides.cocoapods.org/using/getting-started.html#getting-started) to install it.
-- 1.5) **[Android]** Autolink will resolve everything.
+The application allows the user to create their own pizza. The cost of the pizza will be calculated depending on the size, type of crust and amount of extra toppings.
 
-#### 2) Start your app
+## Mobile
 
-- 2.1) **[iOS]** Build and run the iOS app, run `react-native run-ios` (to run on simulator) or `react-native run-ios --device` (to run on real device) from the root of your project. The first build will take some time.
+* React Native
+* Emulator - Direct on mobile: react-native run-android || react-native run-ios
 
-- 2.2) **[Android]** If you haven't already got an android device attached/emulator running then you'll need to get one running. When ready run `react-native run-android` from the root of your project.
+## Back-end
+
+* Node.js
+* Security Module - Cross-Origin Resource Sharing (CORS) - Defines who has the authority to access the application
+* Bank used - SQLite
+* Resources - Insomnia.rest: (Tool to manipulate HTTP Methods)
 
 ## :zap: **Tech Stack**
 
-
--   [React Native](https://github.com/facebook/react-native) (0.62)
-- [Typescript](https://www.typescriptlang.org/)
+-   [React Native](https://github.com/facebook/react-native) (0.63.2)
+-   [Node.js](https://nodejs.org/en/)
+-   [Knex](http://knexjs.org/)
+-   [Typescript](https://www.typescriptlang.org/)
 -   [Styled Components](https://www.styled-components.com/)
 -   [Eslint](https://eslint.org/)
 -   [Redux](https://github.com/reduxjs/react-redux)
 -   [Lottie](https://github.com/react-native-community/lottie-react-native)
-
-## :construction_worker: **To Be Continue**
-
-* Unit tests
-* Fix some responsive issues
-* Add more transitions
-* Improve components and layout structure
+-   [Express](https://expressjs.com/pt-br/)
 
 👨‍💻 **Author**
 
