@@ -18,9 +18,6 @@
     <img width="250" style="border-radius: 5px" height="450" src="https://media.giphy.com/media/eAGARwXoWvVIvWD7gl/giphy.gif" alt="Intro">
   </kbd>
 
-  <kbd>
-    <img width="250" style="border-radius: 5px" height="450" src="https://media.giphy.com/media/SV0nPqNL7gBCgv6yry/giphy.gif" alt="Intro">
-  </kbd>
 </p>
 
 # :wrench: Install instructions
