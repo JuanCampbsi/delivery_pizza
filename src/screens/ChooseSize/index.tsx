@@ -17,7 +17,7 @@ const { ROUTES } = Constants;
 
 const Container = styled.View({
   flex: 1,
-  backgroundColor: '#FFDEAD',
+  backgroundColor: '#F5DEB3',
 });
 
 const HeaderTitleWrapper = styled.Text({
@@ -76,7 +76,7 @@ const SizeOption = styled.TouchableOpacity(
     backgroundColor: isSelected ? '#fff' : 'transparent',
     ...(isSelected
       ? {
-          shadowColor: '#000000',
+          shadowColor: '#CD950C',
           shadowOffset: {
             width: 0,
             height: 2,
@@ -122,7 +122,7 @@ const CrustOption = styled.TouchableOpacity(
     backgroundColor: isSelected ? '#fff' : 'transparent',
     ...(isSelected
       ? {
-          shadowColor: '#000',
+          shadowColor: '#CD950C',
           shadowOffset: {
             width: 0,
             height: 2,
@@ -150,7 +150,7 @@ const ButtonWrapper = styled.TouchableOpacity(
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: '#c1c1c1',
+    borderColor: '#8B0000',
   },
   ({ isDisabled }: { isDisabled: boolean }) => ({
     backgroundColor: isDisabled ? 'rgba(114,71,32, 0.2)' : 'rgba(114,71,32, 1)',

@@ -17,10 +17,14 @@ import arrowLeft from '../../resources/images/left-arrow.png';
 
 const ContentContainerAnimated = styled(Animated.View)({
   flex: 1,
+  backgroundColor: '#F5DEB3',
+
 });
+
 
 const BoxContainer = styled(Animated.View)({
   flex: 5,
+ 
 });
 
 const SuccessModal = styled(Animated.View)({
@@ -33,7 +37,7 @@ const SuccessModal = styled(Animated.View)({
   top: deviceHeight / 2 - 150,
   borderRadius: 20,
   padding: 20,
-  backgroundColor: '#fff',
+  backgroundColor: '#F5DEB3',
   shadowColor: '#000',
   shadowOffset: {
     width: 0,
@@ -81,7 +85,7 @@ const PizzaAnimated = styled(Animated.Image)({
 
 const Container = styled.ScrollView({
   flex: 1,
-  backgroundColor: '#ECECED',
+  backgroundColor: '#F5DEB3',
   padding: 20,
 });
 
@@ -97,7 +101,7 @@ const HeaderBackImage = styled.Image({
 });
 
 const HeaderTitleWrapper = styled.Text({
-  flex: 1,
+  alignItems:'center'
 });
 
 const HeaderTitleText = styled.Text({
@@ -111,6 +115,7 @@ const ConfirmOrderText = styled.Text({
   color: '#7e512a',
   marginTop: 10,
   marginLeft: 10,
+  textAlign: 'center'
 });
 
 const ConfirmTable = styled.View({
@@ -132,7 +137,7 @@ const TableLine = styled.View({
 const LineText = styled.Text(
   {
     fontSize: 18,
-    color: '#7e512a',
+    color: '	#CD950C',
   },
   ({ isTitle }: { isTitle?: boolean }) => ({
     fontWeight: isTitle ? 700 : 400,
@@ -157,7 +162,7 @@ const ButtonWrapper = styled.TouchableOpacity({
   justifyContent: 'center',
   alignItems: 'center',
   borderWidth: 1,
-  borderColor: '#c1c1c1',
+  borderColor: '#8B0000',
   backgroundColor: 'rgba(114,71,32, 1)',
 });
 
@@ -299,7 +304,7 @@ const CheckOrder: FC = () => {
           }
           headerCenter={
             <HeaderTitleWrapper>
-              <HeaderTitleText>Check your order</HeaderTitleText>
+              <HeaderTitleText>Order</HeaderTitleText>
             </HeaderTitleWrapper>
           }
         />
@@ -348,7 +353,7 @@ const CheckOrder: FC = () => {
         <SucessTitle>Your order is on its way !</SucessTitle>
         <GoToBeginText>Do you want to order another pizza ?</GoToBeginText>
         <ButtonModal onPress={handleModalButton}>
-          <ButtonText>Yess!</ButtonText>
+          <ButtonText>Yes!</ButtonText>
         </ButtonModal>
       </SuccessModal>
 

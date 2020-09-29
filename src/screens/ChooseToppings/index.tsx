@@ -21,7 +21,7 @@ const { ROUTES } = Constants;
 
 const Container = styled.View({
   flex: 1,
-  backgroundColor: '#ECECED',
+  backgroundColor: '#F5DEB3',
 });
 
 const HeaderBackButton = styled.TouchableOpacity({
@@ -36,7 +36,7 @@ const HeaderBackImage = styled.Image({
 });
 
 const HeaderTitleWrapper = styled.Text({
-  flex: 1,
+  alignItems:'center'
 });
 
 const HeaderTitleText = styled.Text({
@@ -164,7 +164,7 @@ const ButtonWrapper = styled.TouchableOpacity({
   justifyContent: 'center',
   alignItems: 'center',
   borderWidth: 1,
-  borderColor: '#c1c1c1',
+  borderColor: '#8B0000',
   backgroundColor: 'rgba(114,71,32, 1)',
 });
 
@@ -310,7 +310,7 @@ const ChooseToppings: FC = () => {
         }
         headerCenter={
           <HeaderTitleWrapper>
-            <HeaderTitleText>Pizza&apos;s topping</HeaderTitleText>
+            <HeaderTitleText>Choose coverage</HeaderTitleText>
           </HeaderTitleWrapper>
         }
       />
@@ -324,7 +324,7 @@ const ChooseToppings: FC = () => {
           </PizzaPrice>
         </PizzaWrapper>
 
-        <Label>Select pizza&apos;s topping</Label>
+        <Label>Select coverage</Label>
         <ToppingWrapper horizontal showsHorizontalScrollIndicator={false}>
           {toppings.map((item: ToppingInterface) => (
             <ToppingItemWrapper
