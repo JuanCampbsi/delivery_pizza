@@ -1,5 +1,5 @@
 <h1 align="center">
-  Pizza-App
+  Delivery_Pizza
 </h1>
 
 <p align="center">A simple, clean and beautiful mobile app to create your own pizza.</p>
@@ -56,7 +56,7 @@
 * Add more transitions
 * Improve components and layout structure
 
-## :see_no_evil: **Author**
+👨‍💻 **Author**
 
-Developed by [_Guilherme Strutzki_](https://www.linkedin.com/in/guilherme-strutzki-b92644169/)
+Developed by [_Juan Campos_](https://www.linkedin.com/in/juancampos-ferreira/)
 
