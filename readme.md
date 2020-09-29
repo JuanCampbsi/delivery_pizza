@@ -5,7 +5,7 @@
 <p align="center">A simple, clean and beautiful mobile app to create your own pizza.</p>
 
 <p align="center">
-  <img src="https://3.bp.blogspot.com/-t3VkABnwBQU/VmCNe1HJsrI/AAAAAAAAALQ/SeatYoEHkAs/s1600/pizza.com_pizzaria_pre_assada_franca.jpg" alt="Animavita" height="300" width="500">
+  <img src="https://ibb.co/VwR67qY" alt="Animavita" height="300" width="500">
   <br>
   <br>
 </p>
