@@ -1,5 +1,5 @@
 <h1 align="center">
-  Delivery_Pizza
+  🍕 Delivery_Pizza 🏍
 </h1>
 
 <p align="center">Pizza ordering and assembly application.</p>
@@ -11,7 +11,7 @@
 </p>
 
 
-# :rocket: Demo 🚀💻🏋️‍♂️💪
+# App Preview 📱
 
 <p align="center">
   <kbd>
