@@ -23,7 +23,7 @@
 # Request Insomnia - Node-js📱
 <p align="center">
  <kbd>
-    <img width="450" style="border-radius: 5px" height="650" src="https://media.giphy.com/media/pp2SIgEgKjtC8QPR9X/giphy.gif" alt="Intro">
+    <img width="650" style="border-radius: 5px" height="400" src="https://media.giphy.com/media/pp2SIgEgKjtC8QPR9X/giphy.gif" alt="Intro">
   </kbd>
 </p>
 
