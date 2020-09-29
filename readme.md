@@ -22,23 +22,23 @@
 
 
 
-### Descrição 
+## 🛠 Description
 
 The application allows the user to create their own pizza. The cost of the pizza will be calculated depending on the size, type of crust and amount of extra toppings.
 
-## Mobile
+### 📲 Mobile
 
 * React Native
 * Emulator - Direct on mobile: react-native run-android || react-native run-ios
 
-## Back-end
+### 🚧 Back-end
 
 * Node.js
 * Security Module - Cross-Origin Resource Sharing (CORS) - Defines who has the authority to access the application
 * Bank used - SQLite
 * Resources - Insomnia.rest: (Tool to manipulate HTTP Methods)
 
-## :zap: **Tech Stack**
+### ⌨ Tech Stack
 
 -   [React Native](https://github.com/facebook/react-native) (0.63.2)
 -   [Node.js](https://nodejs.org/en/)
@@ -50,7 +50,7 @@ The application allows the user to create their own pizza. The cost of the pizza
 -   [Lottie](https://github.com/react-native-community/lottie-react-native)
 -   [Express](https://expressjs.com/pt-br/)
 
-👨‍💻 **Author**
+👨‍💻 **Author** 💻
 
 Developed by [_Juan Campos_](https://www.linkedin.com/in/juancampos-ferreira/)
 
