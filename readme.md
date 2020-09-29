@@ -48,6 +48,7 @@ The application allows the user to create their own pizza. The cost of the pizza
 -   [React Native](https://github.com/facebook/react-native) (0.63.2)
 -   [Node.js](https://nodejs.org/en/)
 -   [Knex](http://knexjs.org/)
+-   [SQLite3](https://www.sqlite.org/index.html))
 -   [Typescript](https://www.typescriptlang.org/)
 -   [Styled Components](https://www.styled-components.com/)
 -   [Eslint](https://eslint.org/)
