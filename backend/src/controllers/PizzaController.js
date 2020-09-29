@@ -11,11 +11,11 @@ module.exports = {
         .limit(5)
         .offset((page - 1) * 5)
         .select([
-             
-             'ongs.size', 
-             'ongs.border',
-             'ongs.coverager', 
-             'ongs.value']);
+             'pizza.id',
+             'pizza.size', 
+             'pizza.border',
+             'pizza.coverage', 
+             'pizza.value']);
 
         response.header('X-Total-Count', count['count(*)']);
 
@@ -24,18 +24,17 @@ module.exports = {
 
 
     async create(request, response){
-        const { title, description, value } = request.body;
-        const id = request.headers.authorization;
-
-      const [id] =   await connection('pizza').insert({
-            
+        const { id, size, border, coverage, value } = request.body;
+       
+      const [pizza] =   await connection('pizza').insert({
+            id,
             size,
             border,
             coverage,
-            value
+            value,
     
         });    
-        return response.json({ id });
+        return response.json({ pizza });
     },
 
     async delete(request, response){
@@ -47,9 +46,11 @@ module.exports = {
             .select('id')
             .first();
 
-     await connection('pizza').where('id', id).delete();
-
-     return response.status(204).send();
-
+            if (pizza.id != id) {
+                return response.status(401).json({ error: 'Operation not permitted.'});
+            }
+            await connection('pizza').where('id', id).delete();
+       
+            return response.status(204).send();
     }
 };
