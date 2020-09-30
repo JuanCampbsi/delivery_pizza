@@ -21,6 +21,9 @@
 </p>
 
 # Request Insomnia - Node-js📱
+
+Requests via http were used through the insomnia tool simulating a crud and the persistence of the app's data in the SQLite3 database.
+
 <p align="center">
  <kbd>
     <img width="750" style="border-radius: 5px" height="400" src="https://media.giphy.com/media/pp2SIgEgKjtC8QPR9X/giphy.gif" alt="Intro">
